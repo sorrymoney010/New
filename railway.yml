@@ -1,0 +1,11 @@
+services:
+  karmicbotfarm:
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run dashboard.py
+    envVars:
+      - key: STREAMLIT_PORT
+        value: 8080
+      - key: STREAMLIT_BROWSER_GATHER_USAGE_STATS
+        value: "false"
+    startPort: 8080
+    healthCheckPath: /

@@ -1,0 +1,1 @@
+# Survey + Captcha resolver logic

@@ -1,0 +1,1 @@
+# Ad tapper + clicker logic

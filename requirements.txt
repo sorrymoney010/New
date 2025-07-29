@@ -1,0 +1,7 @@
+streamlit
+requests
+selenium
+undetected-chromedriver
+flask
+openai
+twython
