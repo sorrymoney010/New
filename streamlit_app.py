@@ -1,8 +1,5 @@
 # streamlit_app.py
-# Unified launcher for the Karmic Bot Farm GUI
+# Karmic Bot Farm GUI launcher (flat layout version)
 
 import streamlit as st
-from ui import dashboard
-
-# This assumes your main GUI logic lives in ui/dashboard.py
-# You can move or rename the logic here if needed
+import dashboard  # Assumes dashboard.py is in the same folder
